@@ -361,7 +361,7 @@ U_NA,              ralt,              U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                U_LPRN,            U_RPRN,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-{,                 &,                 *,                 U_LPRN,            },                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
+{,                 *,                 &,                 U_LPRN,            },                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 :,                 $,                 %,                 ^,                 +,                 U_NA,              sft,               ctl,               alt,               met,               \
 ~,                 !,                 @,                 #,                 U_PIPE,            U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     ralt,              U_NA,              \
 U_NP,              U_NP,              U_LPRN,            U_RPRN,            \_,                U_NA,              U_NA,              U_NA,              U_NP,              U_NP
