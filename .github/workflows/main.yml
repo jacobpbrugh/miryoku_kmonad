@@ -48,6 +48,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: check cpp version
+        run: cpp --version
       - name: Process inputs
         id: inputs
         run: |
