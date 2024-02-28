@@ -50,7 +50,7 @@
 #else
   2      3      4      5      6           8      9      0      -      =
   q      w      e      r      t           i      o      p      [      ]
-  caps   a      s      d      f           k      l      ;      U_QUOT ent
+  a      s      d      f      g           k      l      ;      U_QUOT ent
                 x      c      v           ,      .      /
 #endif
 )

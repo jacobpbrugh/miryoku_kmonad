@@ -8,7 +8,7 @@ targets := $(source:%.kbd.cpp=build/%.kbd)
 all: $(targets)
 
 build/%.kbd: %.kbd.cpp FORCE
-	cpp -P $(OPT_DEFS) $< | \
+	cpp-11 -P $(OPT_DEFS) $< | \
 	sed \
 	  -e "s/U_QUOT/'/g" \
 	  -e 's/U_DQUO/"/g' \
