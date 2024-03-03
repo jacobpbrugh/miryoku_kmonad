@@ -1,2 +1,3 @@
 #!/bin/sh
-cp -f src/build/miryoku_kmonad.kbd $HOME/.miryoku_kmonad.kbd
+cd src/ && make
+cp build/miryoku_kmonad.kbd $HOME/.miryoku_kmonad.kbd
