@@ -17,7 +17,7 @@
 #if defined (MIRYOKU_MAPPING_LITE)
   fallthrough true
 #else
-  fallthrough false
+  fallthrough true
 #endif
 )
 
