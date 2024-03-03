@@ -54,9 +54,9 @@ XX	ralt	(multi-tap 200 XX (layer-switch U_SYM))	(multi-tap 200 XX (layer-switch 
 )
 (deflayer U_MEDIA
 XX	(multi-tap 200 XX (layer-switch U_TAP))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_BASE))	XX	XX	XX	XX	XX	XX
-met	alt	ctl	sft	XX	XX	previoussong	vold	volu	nextsong
+met	alt	ctl	sft	XX	mute	vold	volu	f14	f15
 XX	ralt	(multi-tap 200 XX (layer-switch U_FUN))	(multi-tap 200 XX (layer-switch U_MEDIA))	XX	XX	XX	XX	XX	XX
-		XX	XX	XX	stopcd	playpause	mute
+		XX	XX	XX	previoussong	playpause	nextsong
 )
 (deflayer U_NUM
 XX	7	8	9	XX	XX	(multi-tap 200 XX (layer-switch U_BASE))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_TAP))	XX
