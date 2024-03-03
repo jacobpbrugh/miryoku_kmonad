@@ -3,6 +3,9 @@
 
 #pragma once
 
+#define MIRYOKU_KMONAD_OS_MAC
+#define MIRYOKU_KMONAD_KEYBOARD_MAC "Apple Internal Keyboard / Trackpad"
+
 #define MIRYOKU_LAYER_NUM \
 U_NP,              7,                 8,                 9,                 U_NP,              U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 ;,                 1,                 2,                 3,                 =,                 U_NA,              sft,               ctl,               alt,               met,               \
