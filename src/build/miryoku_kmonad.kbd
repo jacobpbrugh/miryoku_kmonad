@@ -53,27 +53,27 @@ XX	ralt	XX	XX	XX	XX	XX	XX	XX	XX
 		XX	XX	XX	#(kp- kp5)	#(kp/ kp5)	#(kp* kp5)
 )
 (deflayer U_MEDIA
-XX	(multi-tap 200 XX (layer-switch U_TAP))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_BASE))	XX	XX	XX	XX	XX	XX
-met	alt	ctl	sft	XX	mute	vold	volu	f14	f15
-XX	ralt	(multi-tap 200 XX (layer-switch U_FUN))	(multi-tap 200 XX (layer-switch U_MEDIA))	XX	XX	XX	XX	XX	XX
+XX	XX	XX	XX	XX	XX	XX	XX	XX	XX
+met	alt	ctl	sft	XX	mute	vold	volu	F14	F15
+XX	ralt	XX	XX	XX	XX	XX	XX	XX	XX
 		XX	XX	XX	previoussong	playpause	nextsong
 )
 (deflayer U_NUM
-XX	7	8	9	XX	XX	(multi-tap 200 XX (layer-switch U_BASE))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_TAP))	XX
+XX	7	8	9	XX	XX	XX	XX	XX	XX
 ;	1	2	3	=	XX	sft	ctl	alt	met
-XX	4	5	6	XX	XX	(multi-tap 200 XX (layer-switch U_NUM))	(multi-tap 200 XX (layer-switch U_NAV))	ralt	XX
+XX	4	5	6	XX	XX	XX	XX	ralt	XX
 		`	0	-	XX	XX	XX
 )
 (deflayer U_SYM
-XX	@	#	$	XX	XX	(multi-tap 200 XX (layer-switch U_BASE))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_TAP))	XX
+XX	@	#	$	XX	XX	XX	XX	XX	XX
 [	]	\(	\)	\\	XX	sft	ctl	alt	met
-%	^	&	*	XX	XX	(multi-tap 200 XX (layer-switch U_SYM))	(multi-tap 200 XX (layer-switch U_MOUSE))	ralt	XX
+%	^	&	*	XX	XX	XX	XX	ralt	XX
 		!	:	XX	XX	XX	XX
 )
 (deflayer U_FUN
-comp	f7	f8	f9	sysrq	XX	(multi-tap 200 XX (layer-switch U_BASE))	(multi-tap 200 XX (layer-switch U_EXTRA))	(multi-tap 200 XX (layer-switch U_TAP))	XX
+comp	f7	f8	f9	sysrq	XX	XX	XX	XX	XX
 f11	f1	f2	f3	slck	XX	sft	ctl	alt	met
-f10	f4	f5	f6	pause	XX	(multi-tap 200 XX (layer-switch U_FUN))	(multi-tap 200 XX (layer-switch U_MEDIA))	ralt	XX
+f10	f4	f5	f6	pause	XX	XX	XX	ralt	XX
 		f12	spc	tab	XX	XX	XX
 )
 
