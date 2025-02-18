@@ -54,7 +54,7 @@ XX	ralt	XX	XX	XX	XX	XX	XX	XX	XX
 )
 (deflayer U_MEDIA
 XX	XX	XX	XX	XX	XX	XX	XX	XX	XX
-met	alt	ctl	sft	XX	mute	vold	volu	F14	F15
+met	alt	ctl	sft	XX	mute	vold	volu	XX	XX
 XX	ralt	XX	XX	XX	XX	XX	XX	XX	XX
 		XX	XX	XX	previoussong	playpause	nextsong
 )
