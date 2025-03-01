@@ -336,7 +336,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_MEDIA \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-met,               alt,               ctl,               sft,               U_NA,              mute,              vold,              volu,              U_NU,              U_NU,              \
+met,               alt,               ctl,               sft,               U_NA,              mute,              vold,              volu,              F14,               F15,               \
 U_NA,              ralt,              U_NA,              U_NA,              U_NA,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              previoussong,      playpause,         nextsong,          U_NP,              U_NP
 
